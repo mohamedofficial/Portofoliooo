@@ -1,0 +1,169 @@
+.home {
+  padding: 2rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  color: var(--text-white);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.greeting {
+  color: var(--mario-red);
+}
+
+.hero-subtitle {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--mario-red);
+  margin: 0;
+}
+
+.hero-description {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  border: 2px solid var(--mario-red);
+  background-color: transparent;
+  color: var(--mario-red);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: var(--mario-red);
+  color: var(--text-white);
+}
+
+.btn-primary:hover {
+  background-color: #c1121f;
+  border-color: #c1121f;
+}
+
+.btn-secondary:hover {
+  background-color: var(--mario-red);
+  color: var(--text-white);
+}
+
+.hero-terminal {
+  background-color: rgba(30, 30, 30, 0.8);
+  border: 2px solid var(--mario-red);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+.latest-projects {
+  margin-top: 4rem;
+}
+
+.latest-projects h2 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-white);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: rgba(30, 30, 30, 0.8);
+  border: 1px solid var(--mario-red);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(230, 57, 70, 0.3);
+}
+
+.project-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--mario-red);
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-family: var(--font-body);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  color: var(--mario-red);
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+@media (max-width: 968px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
