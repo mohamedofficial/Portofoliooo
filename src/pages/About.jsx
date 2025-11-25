@@ -7,7 +7,7 @@ function About() {
         <h1>About Me</h1>
         <p className="about-intro">
           Welcome to my digital space. I'm a security researcher and developer 
-          passionate about cybersecurity, open source, and creative coding.
+          passionate about offensive cybersecurity, open source, and creative coding.
         </p>
       </section>
 
@@ -15,7 +15,7 @@ function About() {
         <div className="about-section">
           <h2>Who Am I?</h2>
           <p>
-            I'm white Hacker, also known as 0xmvmd. I specialize in cybersecurity 
+            I'm Mohamed Ibrahim Metwally , also known as 0xmvmd. I specialize in cybersecurity 
             research, web development, and creating tools that make the digital world 
             more secure and accessible.
           </p>
@@ -31,13 +31,13 @@ function About() {
               </div>
             </div>
             <div className="skill-item">
-              <span className="skill-name">Web Development</span>
+              <span className="skill-name">Web Pentesting</span>
               <div className="skill-bar">
                 <div className="skill-progress" style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className="skill-item">
-              <span className="skill-name">React / JavaScript</span>
+              <span className="skill-name">Android App Penetration Testing</span>
               <div className="skill-bar">
                 <div className="skill-progress" style={{ width: '80%' }}></div>
               </div>
@@ -62,7 +62,7 @@ function About() {
           <ul className="interests-list">
             <li>🔒 Cybersecurity & Penetration Testing</li>
             <li>💻 Full-Stack Development</li>
-            <li>🎮 Game Development</li>
+            <li>🎮 Peneteration testing</li>
             <li>📚 Open Source Contributions</li>
             <li>🎨 Creative Coding</li>
           </ul>
