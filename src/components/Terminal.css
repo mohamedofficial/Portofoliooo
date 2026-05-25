@@ -1,0 +1,111 @@
+.terminal {
+  background-color: #1a1a1a;
+  border: 2px solid var(--mario-red);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Courier New', monospace;
+  min-height: 300px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-header {
+  background-color: #2d2d2d;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--mario-red);
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.button.red {
+  background-color: #ff5f56;
+}
+
+.button.yellow {
+  background-color: #ffbd2e;
+}
+
+.button.green {
+  background-color: #27c93f;
+}
+
+.terminal-title {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-white);
+  font-weight: 600;
+}
+
+.terminal-body {
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.terminal-line {
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+.terminal-line.input {
+  color: var(--mario-red);
+}
+
+.terminal-line.output {
+  color: #00ff00;
+}
+
+.terminal-line.error {
+  color: #ff4444;
+}
+
+.prompt {
+  color: var(--mario-red);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.terminal-input-form {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.terminal-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+.terminal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-body::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+  background: var(--mario-red);
+  border-radius: 4px;
+}
+
