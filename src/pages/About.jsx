@@ -6,8 +6,7 @@ function About() {
       <section className="about-hero">
         <h1>About Me</h1>
         <p className="about-intro">
-          Welcome to my digital space. I'm a security researcher and developer 
-          passionate about cybersecurity, open source, and creative coding.
+          Welcome to my digital space. I'm a Electronics & Communication Engneering student , start studing wep & Mobile pentest a bout 2 years ago.
         </p>
       </section>
 
@@ -15,9 +14,9 @@ function About() {
         <div className="about-section">
           <h2>Who Am I?</h2>
           <p>
-            I'm white Hacker, also known as 0xmvmd. I specialize in cybersecurity 
-            research, web development, and creating tools that make the digital world 
-            more secure and accessible.
+            I'm Mohamed Metwally, also known as 0xmvmd.
+             I specialize in WEP pentesting , Revers Eng, in wasted time iam creating 
+          tools that make the digital world more easy & Flexable .
           </p>
         </div>
 
@@ -60,11 +59,10 @@ function About() {
         <div className="about-section">
           <h2>Interests</h2>
           <ul className="interests-list">
-            <li>🔒 Cybersecurity & Penetration Testing</li>
-            <li>💻 Full-Stack Development</li>
-            <li>🎮 Game Development</li>
-            <li>📚 Open Source Contributions</li>
-            <li>🎨 Creative Coding</li>
+            <li>🔒 Reverse Engneering & Penetration Testing</li>
+            <li>💻 Hardware Hacking </li>
+            <li> </li>
+            
           </ul>
         </div>
 

@@ -9,7 +9,7 @@ function Home() {
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="greeting">$ </span>
-            white Hacker
+            welcome , to my Digital Space .
           </h1>
           <p className="hero-subtitle">aka 0xmvmd</p>
           <p className="hero-description">
